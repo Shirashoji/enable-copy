@@ -1,7 +1,7 @@
 {
   "name": "Enable Copy",
   "manifest_version": 2,
-  "version": "3.1.2",
+  "version": "1.0.0",
   "icons": {
         "128": "clipboard.png"
   },
