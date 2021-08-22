@@ -1,0 +1,18 @@
+{
+  "name": "Enable Copy",
+  "manifest_version": 2,
+  "version": "3.1.2",
+  "icons": {
+        "128": "clipboard.png"
+  },
+  "browser_action": {
+    "default_title": "EC"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["*://*/*"],
+      "css": ["cp.css"]
+    }
+  ]
+}
